@@ -31,6 +31,7 @@ body {
     gap: 20px;
     justify-content: center;
     padding: 20px;
+    transition: 0.2s ease;
 }
 
 .yarik-main img {
@@ -40,10 +41,9 @@ body {
     overflow: hidden;
     border-radius: 50px;
     box-shadow: 0 10px 30px rgba(171,171,171,1);
-    transition: 0.2s ease;
 }
 
-.yarik-main img::hover {
+.yarik-main::hover {
     transform: scale(1.05);
 }
 
@@ -58,7 +58,7 @@ body {
     transition: 0.2s ease;
 }
 
-.yarik-sec-column img::hover {
+.yarik-sec-column::hover {
     transform: scale(1.05);
 }
 
