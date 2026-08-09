@@ -51,7 +51,7 @@ body {
 .yarik-sec-column img {
     box-shadow: 0 10px 30px rgba(171,171,171,0);
 
-.yarik-sec-text {;
+.yarik-sec-text {
     padding: 30px 10px;
     text-align: center;
     background: var(--main-color);
