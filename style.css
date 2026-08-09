@@ -40,6 +40,11 @@ body {
     overflow: hidden;
     border-radius: 50px;
     box-shadow: 0 10px 30px rgba(171,171,171,1);
+    transition: 0.2s ease;
+}
+
+.yarik-main img::hover {
+    transform: scale(1.05);
 }
 
 .yarik-sec-column {
@@ -50,6 +55,11 @@ body {
 
 .yarik-sec-column img {
     box-shadow: 0 10px 30px rgba(171,171,171,1);
+    transition: 0.2s ease;
+}
+
+.yarik-sec-column img::hover {
+    transform: scale(1.05);
 }
 
 .yarik-sec-text {
@@ -58,6 +68,12 @@ body {
     background: var(--main-color);
     border-radius: 50px;
     box-shadow: 0 10px 30px rgba(171,171,171,1);
+    transition: transform 0.2s ease;
+}
+
+.yarik-sec-text::hover {
+    cursor: pointer;
+    transform: scale(1.05);
 }
 
 .yarik-sec-text a {
