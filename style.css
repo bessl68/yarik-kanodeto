@@ -16,7 +16,7 @@ body {
     background: #b22222;
 }
 
-.yarik-txt {
+.yarik-text {
     color: #e6e6e6;
 }
 
@@ -42,17 +42,17 @@ body {
     justify-content: space-between;
 }
 
-.yarik-sec-txt {;
+.yarik-sec-text {;
     padding: 30px 10px;
     text-align: center;
     background: #b22222;
     border-radius: 50px;
 }
 
-.yarik-sec-txt a {
+.yarik-sec-text a {
     text-decoration: none;
 }
 
-.yarik-sec-txt h3 {
+.yarik-sec-text h3 {
     color: #e6e6e6;
 }
