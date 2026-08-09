@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Unbounded', Sans-Serif;
+    font-weight: 800;
+    -webkit-tap-highlight-color: transparent;
+}
+
+body {
+    background: #e6e6e6;
+}
+
+.yarik {
+    text-align: center;
+    padding: 15px;
+    background: #b22222;
+}
+
+.yarik-txt {
+    color: #e6e6e6;
+}
+
+.yarik-main {
+    display: grid;
+    grid-template-columns: repeat(2, 150px);
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.yarik-main img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 50px;
+}
+
+.yarik-sec-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.yarik-sec-txt {;
+    padding: 30px 10px;
+    text-align: center;
+    background: #b22222;
+    border-radius: 50px;
+}
+
+.yarik-sec-txt a {
+    text-decoration: none;
+}
+
+.yarik-sec-txt h3 {
+    color: #e6e6e6;
+}
