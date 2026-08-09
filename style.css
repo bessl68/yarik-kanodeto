@@ -56,7 +56,7 @@ body {
     text-align: center;
     background: var(--main-color);
     border-radius: 50px;
-    box-shadow: 0 10px 30px rgba(171,171,171 0);
+    box-shadow: 0 10px 30px rgba(171,171,171,0);
 }
 
 .yarik-sec-text a {
